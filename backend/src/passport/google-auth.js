@@ -16,8 +16,8 @@ passport.deserializeUser(async (id, done) => {
 
 passport.use("sign-in-google",new GoogleStrategy(
     {
-      clientID:"918441436608-d59m8fgugam709l72gd4r4fignbqacc8.apps.googleusercontent.com",
-      clientSecret: "Q-5anINXJgtAbomClf3sQFJ8",
+      clientID:"918qqqsssss4",
+      clientSecret: "Q-5anINsQFJ8",
       callbackURL: "http://localhost:4000/auth/google/callback",
     },
     async (accessToken, refreshToken, profile, done) => {
@@ -44,8 +44,8 @@ passport.use("sign-in-google",new GoogleStrategy(
 
 passport.use("sign-up-google",new GoogleStrategy(
   {
-    clientID:"918441436608-d59m8fgugam709l72gd4r4fignbqacc8.apps.googleusercontent.com",
-    clientSecret: "Q-5anINXJgtAbomClf3sQFJ8",
+    clientID:"9184414362222adsfefr4e",
+    clientSecret: "Q-5anf3f3f3fd3w3edwedsde3wdsw3sdwsw3sde",
     callbackURL: "http://localhost:4000/auth/google/signup",
   },
   async (accessToken, refreshToken, profile, done) => {
